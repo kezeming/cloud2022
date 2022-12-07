@@ -1,0 +1,18 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    # 注册到zookeeper的微服务节点是临时节点
+    # zookeeper比eureka更干脆，服务一段时间无心跳后，会直接删除实例
+    zookeeper:
+      connect-string: localhost:2181
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource      # 数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver     # mysql驱动包
+    url: jdbc:mysql://localhost:3306/Cloud2020?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: uchiha123

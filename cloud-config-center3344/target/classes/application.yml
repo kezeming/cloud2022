@@ -1,0 +1,27 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center # 注册进eureka服务器的微服务名
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kezeming/cloud2022-config.git
+          # 搜索目录
+          search-paths:
+            - cloud2022-config
+          skip-ssl-validation: true
+
+      # 读取分支
+      label: master
+
+# 服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: cloud-config-server
+    prefer-ip-address: true
