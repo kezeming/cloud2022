@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed778fa-433f-4dcc-89d8-83cfa43011eb" name="Changes" comment="" />
+    <list default="true" id="8ed778fa-433f-4dcc-89d8-83cfa43011eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/kezeming/springcloud/ConfigClientMain3366.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/kezeming/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,14 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigCenterMain3344">
-    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimeTest" />
-      <module name="cloud-gateway-gateway9527" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center3344" />
       <extension name="coverage">
@@ -113,6 +118,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kezeming.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +165,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.GatewayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.HystrixDashboardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,23 +261,24 @@
       <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.PaymentMain8004" />
-      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       <item itemvalue="Spring Boot.PaymentMain8006" />
-      <item itemvalue="Spring Boot.GatewayMain9527" />
       <item itemvalue="Spring Boot.OrderMain80 (1)" />
-      <item itemvalue="Application.TimeTest" />
       <item itemvalue="Spring Boot.OrderFeignMain80" />
-      <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
+      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+      <item itemvalue="Spring Boot.GatewayMain9527" />
+      <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.ConfigClientMain3366" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+        <item itemvalue="Spring Boot.ConfigClientMain3366" />
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Spring Boot.GatewayMain9527" />
         <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-        <item itemvalue="Application.TimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +299,9 @@
       <workItem from="1669782418537" duration="1044000" />
       <workItem from="1669783661741" duration="1400000" />
       <workItem from="1669829717704" duration="361000" />
-      <workItem from="1670069113230" duration="11737000" />
+      <workItem from="1670069113230" duration="12913000" />
+      <workItem from="1670485396309" duration="4265000" />
+      <workItem from="1670504728903" duration="1020000" />
     </task>
     <servers />
   </component>

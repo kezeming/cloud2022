@@ -17,6 +17,12 @@
     </properties>
 
     <dependencies>
+        <!-- 添加消息总线RabbitMQ支持 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+
         <!--eureka server-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -58,6 +64,5 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 </project>
