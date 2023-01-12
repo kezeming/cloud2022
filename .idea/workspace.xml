@@ -5,16 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed778fa-433f-4dcc-89d8-83cfa43011eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/kezeming/springcloud/ConfigClientMain3366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/kezeming/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/kezeming/springcloud/alibaba/NacosConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/kezeming/springcloud/alibaba/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/target/classes/com/kezeming/springcloud/alibaba/NacosConfigClientMain3377.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/target/classes/com/kezeming/springcloud/alibaba/controller/ConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/src/main/java/com/kezeming/springcloud/alibaba/OrderNacosMain83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/src/main/java/com/kezeming/springcloud/alibaba/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/src/main/java/com/kezeming/springcloud/alibaba/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/target/classes/com/kezeming/springcloud/alibaba/OrderNacosMain83.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/target/classes/com/kezeming/springcloud/alibaba/config/ApplicationContextConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-order83/target/classes/com/kezeming/springcloud/alibaba/controller/OrderNacosController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/kezeming/springcloud/alibaba/Payment9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/kezeming/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/target/classes/com/kezeming/springcloud/alibaba/Payment9001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/target/classes/com/kezeming/springcloud/alibaba/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/kezeming/springcloud/alibaba/Payment9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/kezeming/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/target/classes/com/kezeming/springcloud/alibaba/Payment9002.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/target/classes/com/kezeming/springcloud/alibaba/controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/kezeming/springcloud/StreamMQMain8802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/kezeming/springcloud/controller/ReceiveMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/com/kezeming/springcloud/StreamMQMain8802.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/classes/com/kezeming/springcloud/controller/ReceiveMessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/kezeming/springcloud/StreamMQMain8803.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/kezeming/springcloud/controller/ReceiveMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/com/kezeming/springcloud/StreamMQMain8803.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/classes/com/kezeming/springcloud/controller/ReceiveMessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/kezeming/springcloud/StreamMQMain8801.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/kezeming/springcloud/controller/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/kezeming/springcloud/service/IMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/kezeming/springcloud/service/Impl/MessageProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/kezeming/springcloud/StreamMQMain8801.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/kezeming/springcloud/controller/SendMessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/kezeming/springcloud/service/IMessageProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/com/kezeming/springcloud/service/Impl/MessageProviderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/kezeming/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/kezeming/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/kezeming/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/kezeming/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/kezeming/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/kezeming/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/kezeming/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/kezeming/springcloud/controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,11 +135,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/resources" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -95,41 +162,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
-    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Payment9002">
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center3344" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kezeming.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.ConfigCenterMain3344" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client3355" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kezeming.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client3366" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kezeming.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,14 +205,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway-gateway9527" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kezeming.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.GatewayMain9527" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,6 +215,19 @@
     <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-hystrix-dashboard9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-config-nacos-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kezeming.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.alibaba.NacosConfigClientMain3377" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,6 +260,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-consumer-order83" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kezeming.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.alibaba.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderZkMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerZk-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.OrderZkMain80" />
@@ -211,14 +280,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-hystrix-payment8001" />
+    <configuration name="Payment9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-provider-payment9001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kezeming.springcloud.*" />
+          <option name="PATTERN" value="com.kezeming.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.alibaba.Payment9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payment9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kezeming.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.alibaba.Payment9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.PaymentHystrixMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,6 +341,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kezeming.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kezeming.springcloud.StreamMQMain8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
@@ -271,14 +380,20 @@
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
       <item itemvalue="Spring Boot.ConfigClientMain3366" />
+      <item itemvalue="Spring Boot.StreamMQMain8801" />
+      <item itemvalue="Spring Boot.StreamMQMain8803" />
+      <item itemvalue="Spring Boot.Payment9001" />
+      <item itemvalue="Spring Boot.Payment9002" />
+      <item itemvalue="Spring Boot.OrderNacosMain83" />
+      <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigClientMain3366" />
-        <item itemvalue="Spring Boot.ConfigClientMain3355" />
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-        <item itemvalue="Spring Boot.GatewayMain9527" />
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+        <item itemvalue="Spring Boot.Payment9002" />
+        <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+        <item itemvalue="Spring Boot.OrderNacosMain83" />
+        <item itemvalue="Spring Boot.Payment9001" />
+        <item itemvalue="Spring Boot.StreamMQMain8803" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +416,22 @@
       <workItem from="1669829717704" duration="361000" />
       <workItem from="1670069113230" duration="12913000" />
       <workItem from="1670485396309" duration="4265000" />
-      <workItem from="1670504728903" duration="1020000" />
+      <workItem from="1670504728903" duration="4448000" />
+      <workItem from="1670557836583" duration="807000" />
+      <workItem from="1670573495216" duration="96000" />
+      <workItem from="1670573598961" duration="6564000" />
+      <workItem from="1671163591764" duration="1298000" />
+      <workItem from="1671370348620" duration="10191000" />
+      <workItem from="1671611989517" duration="415000" />
+      <workItem from="1671719868143" duration="594000" />
+      <workItem from="1672312215115" duration="985000" />
+      <workItem from="1672744658223" duration="183000" />
+      <workItem from="1672795106712" duration="474000" />
+      <workItem from="1672829901047" duration="143000" />
+      <workItem from="1672830636611" duration="91000" />
+      <workItem from="1673060896488" duration="1683000" />
+      <workItem from="1673339995947" duration="3420000" />
+      <workItem from="1673423464047" duration="2663000" />
     </task>
     <servers />
   </component>
